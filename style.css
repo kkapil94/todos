@@ -1,0 +1,49 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1 {
+    color: bisque;
+    text-align: center;
+    margin: 0rem 0rem 2rem 0rem ;
+    font-size: 5rem;
+
+}
+form{
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+ul{
+    margin: 0%;
+}
+form ul li{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(105, 88, 66);
+    padding: .5rem 0rem .5rem 0rem;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+.comp{
+    text-decoration: line-through;
+    color: #d3d3c7;
+}
+small{
+    margin-top: 2rem;
+    font-size: 15px;
+    color: #d3d3c7;
+}
